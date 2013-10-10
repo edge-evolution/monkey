@@ -9,6 +9,9 @@ gem 'sqlite3'
 # Use Devise for authentication system
 gem 'devise', '3.0.0rc'
 
+# Use Simple Form to modify and simplify forms throughout the site
+gem 'simple_form'
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
