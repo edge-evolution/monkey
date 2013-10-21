@@ -17,4 +17,9 @@ class CustomRoutesTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
   
+  test "" do
+    get '/jasonseifer'
+    assert_response :success
+  end
+  
 end
